@@ -1,0 +1,19 @@
+# 1. Security (Never upload these)
+.env
+.DS_Store
+
+# 2. Python garbage
+__pycache__/
+*.pyc
+.env/
+env/
+
+# 3. Data (Don't upload the PDFs or the heavy DB)
+data/inputs/*
+data/processed/*
+data/chromadb/*
+
+# ...But keep the empty folder structure
+!data/inputs/.gitkeep
+!data/processed/.gitkeep
+!data/chromadb/.gitkeep

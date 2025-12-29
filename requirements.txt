@@ -1,0 +1,8 @@
+groq
+chromadb
+marker-pdf
+langchain
+langchain-text-splitters
+python-dotenv
+pillow
+pymupdf4llm
